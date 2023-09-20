@@ -71,4 +71,25 @@
         background-color: var(--table-bg-header);
         color: var(--table-color-header);
       }
+      .NORA:hover{
+        
+        color: darkred;
+        text-shadow:3px 2px 3px blue;
+        background-color:darkkhaki;
+        
+       
+      }
       
+      .HELMER:hover{
+        color: darkred;
+        text-shadow:3px 2px 3px blue;
+        background-color:darkkhaki;
+      }
+      .navbar-horizontal{
+        padding: 15px;
+        float:left;
+        background-color:black;
+        color:black;
+        display:block;
+        
+      }
