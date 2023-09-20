@@ -1,22 +1,74 @@
 .name{
     font-size: 40; 
     font-family: Palatino, "Palatino Linotype", serif; 
-    color: rgb(199, 24, 24);
+    color: rgb(218, 62, 62);
 }
 
 .speech{
     font-size: 12; 
     font-family: Verdana, Times, serif; 
-    color: rgba(14, 14, 14, 0.621);
+    color: rgba(14, 14, 14, 0.925);
     }
 
 .direction{
-    background-color: rgba(166, 184, 170, 0.801);
+    background-color: rgb(166, 184, 170);
     font-size: 20; 
     font-family: "Times New Roman", Times, serif; 
     color: black;
 }
 
 .direction:hover{
-    background-color: rgba(35, 30, 183, 0.721);
+    background-color: rgb(35, 30, 183);
  }
+
+ .NORA{
+    font-size: 40;
+    color: rgb(13, 195, 195);
+    font-style: italic;
+    }
+    
+.NURSE{
+      font-size: 40; 
+      color: rgb(26, 178, 26);
+      font-style: oblique;
+    }
+
+    :root {
+        --table-border: 1px solid black;
+        --table-padding: 18px;
+        --table-bg-even: rgba(227, 222, 222, 0.801);
+        --table-bg-header: #c71515ce;
+        --table-color-header: rgba(17, 56, 96, 0.833);
+      }
+
+      :root {
+        --table-border: 2px solid black;
+        --table-padding: 18px;
+        --table-bg-even: rgba(227, 222, 222, 0.783);
+        --table-bg-header: #168de2ba;
+        --table-color-header: rgba(179, 19, 38, 0.774);
+      }
+      
+      table, th, td {
+        border: var(--table-border);
+        text-align: center !important;
+      }
+      
+      table {
+        width: 50%;
+        margin: 20px;
+      }
+      
+      th, td {
+        padding: var(--table-padding);
+      }
+      
+      tr:nth-child(even) {
+        background-color: var(--table-bg-even);
+      }
+      
+      th {
+        background-color: var(--table-bg-header);
+        color: var(--table-color-header);
+      }
+      
