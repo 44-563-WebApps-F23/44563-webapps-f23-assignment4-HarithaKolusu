@@ -5,7 +5,7 @@
     }
 
 .direction{
-    background-color: rgb(235, 242, 237);
+    background-color: rgb(235, 247, 247);
     font-size: 20; 
     font-family: "Times New Roman", Times, serif; 
     color: black;
@@ -17,13 +17,13 @@
 
  .NORA{
     font-size: 40;
-    color: rgb(13, 195, 195);
+    color: rgb(101, 38, 6);
     font-style: italic;
     }
     
 .NURSE{
       font-size: 40; 
-      color: rgb(26, 178, 26);
+      color: rgb(137, 8, 107);
       font-style: oblique;
     }
 
@@ -69,7 +69,8 @@
         
         color: darkred;
         text-shadow:3px 2px 3px blue;
-        background-color:darkkhaki;
+        background-color:rgb(187, 197, 201);
+        filter: blur(1px);
        
       }
       
@@ -77,6 +78,7 @@
         color: darkred;
         text-shadow:3px 2px 3px blue;
         background-color:darkkhaki;
+        filter: blur(1px);
       }
       .navbar-horizontal{
         padding: 15px;
@@ -98,7 +100,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #d62929;
+        background-color: #7429d6f3;
       }
       
       li {
